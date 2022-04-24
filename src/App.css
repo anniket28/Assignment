@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Josefin+Sans&family=Libre+Baskerville&family=Lora:wght@500&family=Luxurious+Roman&family=Montserrat&family=Orelega+One&family=Roboto+Slab&family=Rubik&family=Shippori+Antique&family=Source+Sans+Pro&family=Titillium+Web&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-y: hidden;
+}
+
+/* Login */
+.login ,.signup, .forgot{
+    margin-top: 50px;
+}
+
+/* Title */
+.login h1 ,.signup h1, .forgot h1{
+    color: blue;
+}
+
+/* Input Color */
+.login input,.signup input, .forgot input{
+    color: blue;
+}
+
+/* Placeholder Color */
+.login ::placeholder{
+    color: blue;
+}
+.signup ::placeholder{
+    color: blue;
+}
+.forgot ::placeholder{
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) { 
+    body{
+        overflow: auto !important;
+    }
+    /* Login */
+    .login{
+        flex-direction: column !important;
+    }
+    .login .logindiv{
+        width: 90% !important;
+        margin-top: 10px !important;
+    }
+    .login .signupClickDiv{
+        margin-bottom: 15px !important;
+    }
+
+    /* Signup */
+    .signup{
+        flex-direction: column !important;
+    }
+    .signup .signupdiv{
+        width: 90% !important;
+    }
+    .signup .loginClickDiv{
+        margin-bottom: 15px !important;
+    }
+    .signup .simgdiv{
+        margin-bottom: 15px !important;
+    }
+}
+@media only screen and (min-width:601px) and (max-width: 800px) {
+    body{
+        overflow: auto !important;
+    }
+    /* Login */
+    .login{
+        flex-direction: column !important;
+    }
+    .login .logindiv{
+        width: 90% !important;
+        margin-top: 10px !important;
+    }
+    .login .signupClickDiv{
+        margin-bottom: 15px !important;
+    }
+
+    /* Signup */
+    .signup{
+        flex-direction: column !important;
+    }
+    .signup .signupdiv{
+        width: 90% !important;
+    }
+    .signup .loginClickDiv{
+        margin-bottom: 15px !important;
+    }
+    .signup .simgdiv{
+        margin-bottom: 15px !important;
+    }
+}
+@media only screen and (min-width:801px) and (max-width: 1000px) {
+    body{
+        overflow: auto !important;
+    }
+    /* Login */
+    .login{
+        flex-direction: column !important;
+    }
+    .login .logindiv{
+        width: 90% !important;
+        margin-top: 10px !important;
+    }
+    .login .signupClickDiv{
+        margin-bottom: 15px !important;
+    }
+
+    /* Signup */
+    .signup{
+        flex-direction: column !important;
+    }
+    .signup .signupdiv{
+        width: 90% !important;
+    }
+    .signup .loginClickDiv{
+        margin-bottom: 15px !important;
+    }
+    .signup .simgdiv{
+        margin-bottom: 15px !important;
+    }
+}
+@media only screen and (min-width:1001px) and (max-width: 1200px) {
+    body{
+        overflow: auto !important;
+    }
+    /* Login */
+    .login .logindiv{
+        width: 50% !important;
+        margin-top: 10px !important;
+    }
+
+    /* Signup */
+    .signup .signupdiv{
+        width: 50% !important;
+    }
+    .signup .loginClickDiv{
+        margin-bottom: 15px !important;
+    }
+    .signup .simgdiv{
+        margin-bottom: 15px !important;
+    }
+}
